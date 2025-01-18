@@ -1,0 +1,21 @@
+{
+  "build": {
+    "intervalTimer": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "intervalTimer2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "intervalTimer3": {
+      "developmentClient": true
+    },
+    "intervalTimer4": {
+      "distribution": "internal"
+    },
+    "production": {}
+  }
+}
